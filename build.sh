@@ -4,4 +4,4 @@ ldid -Sresolutionsetter/resolutionsetter.entitlements -Icom.michael.resolutionse
 cd build/Release-iphoneos
 ln -s ./ Payload
 zip -r9 resolutionsetter.ipa Payload/resolutionsetter.app
-mv resolutionsetter.ipa ../..
+mv resolutionsetter.ipa ..
